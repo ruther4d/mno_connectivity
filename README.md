@@ -3,7 +3,7 @@ This is an analysis of how the probability of device connectivity is determined 
 
 The images produced are of the form below with additional breakdowns by MNO and technology (3G/4G/5G etc)
 
-![alt text](figs/plot.png "Title")
+![alt text](figs/all.png "Title")
 
 # Query
 ```sql
