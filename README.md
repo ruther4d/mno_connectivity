@@ -8,7 +8,7 @@ The images produced are of the form below with additional breakdowns by MNO and 
 # Query
 ```sql
 WITH clean_mno as (select CASE 
-    WHEN (Device_SIMServiceProvider = '3' AND  Device_SIMServiceProvider = 'Three Mobile' ) THEN '3'
+    WHEN (Device_SIMServiceProviderBrandName = '3' AND  Device_SIMServiceProvider = 'Three Mobile' ) THEN '3'
     WHEN (Device_SIMServiceProviderBrandName = 'O2' AND  Device_SIMServiceProvider = 'O2' ) THEN 'O2'
     WHEN (Device_SIMServiceProviderBrandName = 'Vodafone' AND  Device_SIMServiceProvider = 'Vodafone' ) THEN 'V'
     WHEN (Device_SIMServiceProviderBrandName = 'EE' AND  Device_SIMServiceProvider = 'EE' ) THEN 'EE'
