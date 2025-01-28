@@ -1,7 +1,7 @@
 # Analysis of Connectivity with Signal Strength
 This is an analysis of how the probability of device connectivity is determined by signal strength. It is an iteration on a previous pilot [Predicting Connectivity from Signal Strength](https://ofcomuk.sharepoint.com/:w:/r/sites/dih/pilots/OpenSignal%20Projects/Technical%20Note%20-%20Predicting%20Connectivity%20from%20Signal%20Strength.docx?d=wa8e9af1e760d466e847c4f3176956599&csf=1&web=1&e=nRioUL). This uses updated Open Signal data according to the query below. 
 
-The images produced are of the form below with additional breakdowns by MNO and technology (3G/4G/5G etc)
+The images produced are of the form below with additional breakdowns by MNO and technology (3G/4G/5G etc). A logistic curve is optionally fitted.
 
 ![alt text](figs/all.png "Title")
 
